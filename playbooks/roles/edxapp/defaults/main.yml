@@ -66,7 +66,7 @@ EDXAPP_MYSQL_REPLICA_PASSWORD: "{{ EDXAPP_MYSQL_PASSWORD }}"
 EDXAPP_MYSQL_REPLICA_HOST: "{{ EDXAPP_MYSQL_HOST }}"
 EDXAPP_MYSQL_REPLICA_PORT: "{{ EDXAPP_MYSQL_PORT }}"
 
-EDXAPP_MYSQL_HOST: 'ouedx.cus0wgghdz0q.us-east-1.rds.amazonaws.com:3306'
+EDXAPP_MYSQL_HOST: 'ouedx.cus0wgghdz0q.us-east-1.rds.amazonaws.com'
 EDXAPP_MYSQL_PORT: '3306'
 
 EDXAPP_LMS_ENV: 'lms.envs.aws'
