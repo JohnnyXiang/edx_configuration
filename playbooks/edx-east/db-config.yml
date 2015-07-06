@@ -1,0 +1,35 @@
+---
+ 
+database_connection: &default_connection
+  login_host: "localhost"
+  login_user: "root"
+  login_password: "secret"
+ 
+DEFAULT_ENCODING: "utf8"
+ 
+databases:
+  edxapp:
+    state: "present"
+    encoding: "{{ DEFAULT_ENCODING }}"
+    <<: *default_connection
+  dashboard:
+    state: "present"
+    encoding: "{{ DEFAULT_ENCODING }}"
+    <<: *default_connection
+ 
+database_users:
+  migrate:
+    state: "present"
+    password: "migrate_secret"
+    host: "%"
+    privileges:
+      - "edxapp%.*:SELECT,INSERT,UPDATE,DELETE,ALTER,CREATE,DROP,INDEX"
+      - "dashboard%.*:SELECT,INSERT,UPDATE,DELETE,ALTER,CREATE,DROP,INDEX"
+    <<: *default_connection
+  dash:
+    state: "present"
+    password: "dash_secret"
+    host: "%"
+    privileges:
+      - "dashboard.*:SELECT,INSERT,UPDATE,DELETE"
+    <<: *default_connection
