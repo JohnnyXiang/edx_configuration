@@ -24,17 +24,17 @@ ANALYTICS_API_DATABASES:
   default:
     ENGINE: 'django.db.backends.mysql'
     NAME: 'analytics-api'
-    USER: 'api001'
-    PASSWORD: 'password'
-    HOST: 'localhost'
+    USER: 'ouedx'
+    PASSWORD: 'q1w2e3AA'
+    HOST: 'ouedx.cus0wgghdz0q.us-east-1.rds.amazonaws.com'
     PORT: '3306'
   # read-only user
   reports:
     ENGINE: 'django.db.backends.mysql'
     NAME: 'reports'
-    USER: 'reports001'
-    PASSWORD: 'password'
-    HOST: 'localhost'
+    USER: 'ouedx'
+    PASSWORD: 'q1w2e3AA'
+    HOST: 'ouedx.cus0wgghdz0q.us-east-1.rds.amazonaws.com'
     PORT: '3306'
 
 ANALYTICS_API_VERSION: "master"

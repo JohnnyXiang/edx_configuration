@@ -25,8 +25,8 @@ INSIGHTS_OAUTH2_URL_ROOT: 'url_root'
 INSIGHTS_SECRET_KEY: 'YOUR_SECRET_KEY_HERE'
 INSIGHTS_OAUTH2_KEY: 'YOUR_OAUTH2_KEY'
 # This will not work on single instance sandboxes
-INSIGHTS_DOC_BASE: 'http://localhost/en/latest'
-INSIGHTS_LMS_BASE: 'http://localhost:18000'
+INSIGHTS_DOC_BASE: 'http://lms.olivetuniversity.edu/en/latest'
+INSIGHTS_LMS_BASE: 'http://lms.olivetuniversity.edu:18000'
 ANALYTICS_API_ENDPOINT: 'http://localhost:18010'
 INSIGHTS_DATA_API_AUTH_TOKEN: 'YOUR_DATA_API_AUTH_TOKEN'
 INSIGHTS_PLATFORM_NAME: 'edX'
@@ -51,9 +51,9 @@ INSIGHTS_DATABASES:
   default:
     ENGINE: 'django.db.backends.mysql'
     NAME: 'dashboard'
-    USER: 'rosencrantz'
-    PASSWORD: 'secret'
-    HOST: 'localhost'
+    USER: 'ouedx'
+    PASSWORD: 'q1w2e3AA'
+    HOST: 'ouedx.cus0wgghdz0q.us-east-1.rds.amazonaws.com'
     PORT: '3306'
 
 INSIGHTS_LMS_COURSE_SHORTCUT_BASE_URL: "URL_FOR_LMS_COURSE_LIST_PAGE"
