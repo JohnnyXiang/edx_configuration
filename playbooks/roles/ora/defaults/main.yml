@@ -67,9 +67,9 @@ ORA_DJANGO_PASSWORD: "password"
 ORA_URL: "http://localhost:18060"
 
 ORA_MYSQL_DB_NAME: 'ora'
-ORA_MYSQL_USER: 'ora001'
-ORA_MYSQL_PASSWORD: 'password'
-ORA_MYSQL_HOST: 'localhost'
+ORA_MYSQL_USER: 'ouedx'
+ORA_MYSQL_PASSWORD: 'q1w2e3AA'
+ORA_MYSQL_HOST: 'ouedx.cus0wgghdz0q.us-east-1.rds.amazonaws.com'
 ORA_MYSQL_PORT: '3306'
 
 ORA_AWS_ACCESS_KEY_ID: ''

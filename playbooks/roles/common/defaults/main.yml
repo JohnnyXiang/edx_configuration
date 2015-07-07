@@ -50,8 +50,8 @@ COMMON_SECURITY_UPDATES: no
 # the admin user is granted create user privs on all dbs
 # the migrate user is granted table alter privs on all dbs
 
-COMMON_MYSQL_READ_ONLY_USER: 'read_only'
-COMMON_MYSQL_READ_ONLY_PASS: 'password'
+COMMON_MYSQL_READ_ONLY_USER: 'ouedx'
+COMMON_MYSQL_READ_ONLY_PASS: 'q1w2e3AA'
 COMMON_MYSQL_ADMIN_USER: 'ouedx'
 COMMON_MYSQL_ADMIN_PASS: 'q1w2e3AA'
 COMMON_MYSQL_MIGRATE_USER: 'ouedx'
