@@ -757,7 +757,7 @@ worker_core_mult:
 edxapp_use_custom_theme: true
 edxapp_theme_name: "ouedx"
 edxapp_theme_source_repo: 'https://github.com/JohnnyXiang/ouedx.git'
-edxapp_theme_version: 'master'
+edxapp_theme_version: 'HEAD'
 
 # make this the public URL instead of writable
 edx_platform_repo: "https://{{ COMMON_GIT_MIRROR }}/edx/edx-platform.git"
